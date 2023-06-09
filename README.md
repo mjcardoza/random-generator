@@ -1,2 +1,2 @@
 # random-generator
-random name and number generator for fantasy football draft
+random name and number generator for fantasy football draft!
