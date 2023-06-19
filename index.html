@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
     <title>Random Generator</title>
 </head>
 <body>
@@ -13,8 +17,10 @@
     <p>Let's start by choosing our GM:</p>
 
     <button id ="getGm-Btn">Get GM</button>
-    
-    <ul id="names-list"></ul>
+
+   <div class="nameUl"> 
+        <ul id="names-list"></ul>
+    </div>
 
 
     <p id="pickOrder"> Let's find out where our lucky GM will be selecting in 2023!</p>
@@ -22,7 +28,9 @@
 
     <button id="selectGm-Btn">Select Order</button>
 
-    <ul id="random-numbers-list"></ul>
+    <div class="numberUl">
+        <ul id="random-numbers-list"></ul>
+    </div>
 
 <script src="index.js"></script>    
 </body>

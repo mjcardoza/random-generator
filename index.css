@@ -1,3 +1,44 @@
 body {
-    align-content: center;
+    background-color: white;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+
+.nameUl {
+   display: table;
+   margin: 0 auto;
+   text-align: left;
+} 
+
+/* .numberUl not working */
+
+.numberUL {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#getGm-Btn {
+    background-color: #013369 ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+#selector-Btn {
+    background-color: #d50a0a ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
