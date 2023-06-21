@@ -6,19 +6,11 @@ body {
 }
 
 
-.nameUl {
+.unorderedLists {
    display: table;
    margin: 0 auto;
    text-align: left;
 } 
-
-/* .numberUl not working */
-
-.numberUL {
-    display: table;
-    margin: 0 auto;
-    text-align: left;
-}
 
 #getGm-Btn {
     background-color: #013369 ;
@@ -30,7 +22,6 @@ body {
     display: inline-block;
     font-size: 16px;
 }
-
 
 #selectGm-Btn {
     background-color: #d50a0a ;

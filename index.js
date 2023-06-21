@@ -69,7 +69,7 @@ function displayRandomNumber() {
   
   if (i < randomNumbers.length) {
     selectGm.addEventListener('click', displayRandomNumber);
-  }
+  } 
 }
 
 selectGm.addEventListener('click', displayRandomNumber);
